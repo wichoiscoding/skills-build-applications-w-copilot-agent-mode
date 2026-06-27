@@ -1,0 +1,23 @@
+{
+  "name": "octofit-backend",
+  "version": "1.0.0",
+  "description": "OctoFit Tracker backend",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.2",
+    "express": "^4.21.2",
+    "mongoose": "^8.15.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.5",
+    "@types/express": "^5.0.1",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.3"
+  }
+}
